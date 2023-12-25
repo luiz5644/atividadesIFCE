@@ -1,0 +1,11 @@
+@charset "ITF-8";
+mark{
+    color: rgb(194, 33, 33);
+    background-color: white;} 
+
+
+#marca{
+    background-color: rgba(194, 33, 33, 0.253);
+    color: black;
+}
+

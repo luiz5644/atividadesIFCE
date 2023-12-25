@@ -1,0 +1,89 @@
+@charset "ITF-8";
+
+   /* id#
+    class. */
+
+
+body{
+        
+
+    
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    font-size: 12pt; 
+    margin-left: auto;
+    margin-right: auto;
+    
+            
+}
+
+.topo{
+    font-size: small;
+}
+
+#titulo{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo2{
+    font-size: larger;  
+    text-align: justify;
+}
+
+p{
+
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.pmenor{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.dados{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dados2{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meio{
+    text-align: center;
+}
+
+ul{
+    text-align: justify;
+}
+
+.espaço{
+    text-indent: 20px;
+
+}
+.link{
+color: black;
+background-color: rgb(255, 255, 255);    
+
+}
+
+
+
+
+
