@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        
+        <div>
+            <h1>Cadastre-se</h1>
+            <label for="name" > nome completo </label>
+            <!-- for é como se fosse um "id", é uma forma de eu identificar esse dado, aqui o dado é o 'nome completo' -->
+            <input type="text" size="30" placeholder="Digite o seu nome">
+            
+        </div>
+        <p></p>
+        
+        <div>
+            <label>Qual seu nome ?<br>
+                <input type="radio" value="fortaleza" name="tema" checked> fortaleza <br>
+                <input type="radio" value="santos" name="tema" checked>santos<br>
+                <input type="radio" value="galo" name="tema" checked>galo<br>
+            </label>
+        </div>
+
+<p></p>
+
+        <div>
+            <label class="lista"> dia da semana importante: <br>
+                <select name="semana" class="lista">
+                <option value="dia"> segunda-feira</option>
+                <option value="samana"> sábado</option>
+                <option value="quinzena">domingo</option>
+            </select>
+            </label>
+        </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1{
+    color: red;
+}
+/* um # eu uso para id  */
+h1#principal{
+    color: rgb(124, 0,248);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* um . para class  */
+h1.okok{
+    color: blue;
+}
+/* eu posso criar várias class aqui e depois eu posos juntar elas  */
+

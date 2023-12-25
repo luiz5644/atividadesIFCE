@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulário.css">
+</head>
+<body>
+    <h1 id="titulo">Cadastre-se em nosso site!</h1>
+    <form >
+        <label for="name" class="titulo2">Nome:</label>
+        <input type="text" size="30" placeholder="Digite o seu nome"  class="como">
+        <p></p>
+
+        <label for="name" class="titulo2">E-mail:</label>
+        <input type="text" size="30" placeholder="Digite o seu e-mail"  class="como">
+        
+        <p></p>
+        <label class="titulo2">Digite o tema da newslatter: 
+        <br>
+        <input type="radio" value="tecnologia" name="tema">Tecnologia
+
+        <br>
+
+        <input type="radio" value="saude" name="tema">Saúde
+
+        <br>
+
+        <input type="radio" value="finanças" name="tema">Finanças
+        <br>
+        </label>
+        <br>
+        <label class="titulo2">Freqência de envio de e-mals:
+            <select name="frequencia"  class="como">
+                <option value="diariamente">Diariamente</option>
+                <option value="semanalmente">Semanalmente</option>
+                <option value="mensalmente">Mensalmente</option>
+                <option value="anualmente">Anualmente</option>
+            </select>
+            <p></p>
+            <label for="data" class="titulo2">Envios a partir de:
+                <br> 
+                <input type="date"  class="como">
+            </label>
+
+            <p></p>
+            <fieldset id="como">
+                <legend class="titulo2" >Como nós conheceu ?</legend>
+                <input type="checkbox" name="conheceu" value="indicação de amigos">
+                <label for="conheceu">Indicação de amigos</label>
+                <br>
+
+                <input type="checkbox" name="conheceu" value="indicações de familiares">
+                <label for="conheceu">Indicações de familiares</label>
+                <br>
+
+                <input type="checkbox" name="conheceu" value="outros">
+                <label for="conheceu">Outros</label>
+            
+            </fieldset>
+            <p></p>
+
+            <input type="submit" value="enviar" class="botao">
+        
+            <input  type="submit" value="limpar" style="position:sticky;"  class="botao">
+           
+
+        </label>
+        <p></p>
+
+    </form>
+ 
+    
+</body>
+</html> 
